@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fortumo app</string>
+    <string name="paybutton">payButton</string>
+    <string name="texttobeseen">texttobeseen</string>
+    <string name="buy_the_test">Buy the test</string>
+    <string name="Buy_the_test">Buy_the_test</string>
+</resources>
