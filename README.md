@@ -32,40 +32,31 @@ What things you need:
 * [Firebase CLI](https://firebase.google.com/?gclid=EAIaIQobChMI3cepoemX6AIVyaiaCh3PNwHbEAAYASAAEgLqQfD_BwE), 
 * [Android Studio](https://developer.android.com/studio).
 
-### Installing
+### Setting up
 
-A step by step series of examples that tell you how to get a development env running
+1. Change the package name in the app;
+2. Upload an app to Google Play Console;
+3. Setup your Firebase Project;
+4. When complete Firebase Project setup you receive ```google-services.json```
+5. Link your Google Cloud Console project to the Google Play Developer Account;
+6. Complete Real-time Developer Notifications Setup
+7. Using the packages in FortumoServer folder deploy the the backend server.
+ Run ```npm install``` to install dependencies
 
-Say what the step will be
-
+Configure Cloud Functions for Firebase with your Android app and subscription products
 ```
-Give the example
+firebase use --add {your_firebase_project_id}
 ```
-
-And repeat
-
 ```
-until finished
+firebase functions:config:set app.package_name="your_android_application_id"
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
 ```
-Give an example
+firebase functions:config:set app.basic_plan_sku="your_basic_subscription_product_sku_id"
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
+```
+firebase functions:config:set app.premium_plan_sku="your_premium_subscription_product_sku_id"
+```
+Run ```firebase deploy``` to deploy your backend to Cloud Functions for Firebase.
 
 ## Acknowledgments
 
