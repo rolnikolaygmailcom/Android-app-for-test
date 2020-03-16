@@ -5,7 +5,7 @@ This is an app for testing purposes. I developed while handling a project relate
 
 [Fortumo](https://fortumo.com/) provides carrier billing and is connected to more than 280 mobile operator networks in 80+ countries. 
 
-As we provide carrier billing services for (Google Play)[https://play.google.com/store?hl=en] we need a way to test new connection between mobile operator, us and GP (if transaction is processed/charged or not). What we did we purchased an random app on GP in a new country (which is costly and we do not control the flow). Thus we needed to have our own app to test new connections and have higher control.
+As we provide carrier billing services for [Google Play](https://play.google.com/store?hl=en) we need a way to test new connection between mobile operator, us and GP (if transaction is processed/charged or not). What we did we purchased an random app on GP in a new country (which is costly and we do not control the flow). Thus we needed to have our own app to test new connections and have higher control.
 
 **Business requirements:**
   1. develope an app and publish it on Google Play;
