@@ -16,7 +16,7 @@
     "express": "~4.16.3",
     "firebase-admin": "6.0.0",
     "firebase-functions": "2.0.5",
-    "googleapis": "~31.0.2"
+    "googleapis": "~39.1.0"
   },
   "devDependencies": {
     "@types/chai": "~4.1.2",
